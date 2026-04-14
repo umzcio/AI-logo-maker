@@ -79,6 +79,6 @@ You need two API keys:
 
 SVG mode only requires the Anthropic key. Artistic mode only requires the OpenAI key. You can use either independently.
 
-## License
+---
 
-MIT
+Vibe coded with [Claude](https://claude.ai/)
