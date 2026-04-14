@@ -4,7 +4,7 @@ AI-powered logo and icon generator. Describe what you want, get a logo back — 
 
 ## Features
 
-- **SVG Mode** — Claude generates editable vector logos from your description
+- **SVG Mode** — Anthropic generates editable vector logos from your description
 - **Artistic Mode** — OpenAI (gpt-image-1) generates rich, stylized logo imagery
 - **Session Gallery** — all generated logos accumulate in the sidebar for quick comparison
 - **Dark/Light Preview** — toggle background to see how your logo looks on both
@@ -38,8 +38,8 @@ Open [http://localhost:5176](http://localhost:5176) and start generating.
 
 ## Tech Stack
 
-- React 18 + TypeScript + Vite
-- Claude API (Anthropic SDK) for SVG generation
+- React 19 + TypeScript + Vite
+- Anthropic API for SVG generation
 - OpenAI API for artistic image generation
 - jsPDF for PDF export
 - Client-side canvas for PNG/WebP/ICO conversion
@@ -50,7 +50,7 @@ Open [http://localhost:5176](http://localhost:5176) and start generating.
 logo-maker/
 ├── server/                 # Express API middleware (runs inside Vite dev server)
 │   ├── index.ts            # Route registration
-│   ├── generate-svg.ts     # Claude API → SVG
+│   ├── generate-svg.ts     # Anthropic API → SVG
 │   └── generate-image.ts   # OpenAI API → base64 PNG
 ├── src/
 │   ├── App.tsx             # Root component, state management
