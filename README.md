@@ -1,4 +1,4 @@
-# Logo Maker
+# AI Logo Maker
 
 AI-powered logo and icon generator. Describe what you want, get a logo back — either as clean vector SVG or artistic raster imagery.
 
